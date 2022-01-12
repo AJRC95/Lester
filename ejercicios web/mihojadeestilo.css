@@ -1,0 +1,44 @@
+/* CSS Document */
+
+#cabezeraweb{background-color:#3366FF;
+}
+#cuerpo{background-color:#99CCFF;
+
+}
+
+li{
+background-color:#CCFF00;
+display:inline;
+margin-left:130px;
+padding-bottom:20px;
+
+
+
+}
+#bienvenido{ background-color: #3366FF;
+float:left;
+display:block;
+
+height : 1080px;
+
+
+}
+#imagenlocal{
+background-color:#66CC66;
+display:inline;
+
+}
+#comentarios{background-color:#FF3300;
+margin-left:220px;
+padding-left: 20px;
+
+
+}
+#piedepagina{
+background-color:#33FF00;
+clear:both;
+margin-top:20px;
+clear: both;
+
+}
+
