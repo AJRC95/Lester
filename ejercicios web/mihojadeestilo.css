@@ -12,9 +12,16 @@
     padding-left: 5px;
 }
 
+h2{
+    text-align: center;
+}
+.headline-box{
+  background-color: #ffffff;
+  text-align: center;
+}
 li{
 display:inline;
-margin-left:130px;
+margin-left:90px;
 padding-bottom:20px;
 }
 
@@ -22,6 +29,10 @@ padding-bottom:20px;
     background-color: rgb(221, 208, 203);
     color: #000;
 
+}
+
+#ImagenBien{
+    width: 100%;
 }
 
 
@@ -36,6 +47,10 @@ padding-left: 20px;
 
 }
 
+#bienvenidox{
+float:left;
+display:block;
+}
 #bienvenido{
     text-align: center;
 }
@@ -48,8 +63,16 @@ text-align: right;
 padding-right: 5%;
 }
 
+.pater{
+    padding-top: 30px;
+}
 .pater > div {
     display: inline-block;
     width: 45%;
     margin: 0;
+}
+
+#tituloStaff{
+    color: blue;
+    font-family: "Open Sans", sans-serif
 }
