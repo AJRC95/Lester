@@ -1,44 +1,57 @@
 /* CSS Document */
 
-#cabezeraweb{background-color:#3366FF;
+#cabezeraweb{background-color:#3366ff00;
 }
-#cuerpo{background-color:#99CCFF;
+#cuerpo{background-color:#99ccff00;
 
+}
+
+#logoInicial{
+    width: 10%;
+    border-radius: 10%;
+    padding-left: 5px;
 }
 
 li{
-background-color:#CCFF00;
 display:inline;
 margin-left:130px;
 padding-bottom:20px;
+}
 
-
+#li_menu:hover{
+    background-color: rgb(221, 208, 203);
+    color: #000;
 
 }
-#bienvenido{ background-color: #3366FF;
+
+
+#bienvenido{ 
 float:left;
 display:block;
 
-height : 1080px;
 
 
 }
 #imagenlocal{
-background-color:#66CC66;
 display:inline;
 
 }
-#comentarios{background-color:#FF3300;
+#comentarios{
 margin-left:220px;
 padding-left: 20px;
 
 
 }
-#piedepagina{
-background-color:#33FF00;
-clear:both;
-margin-top:20px;
-clear: both;
 
+#bienvenido{
+    text-align: center;
+}
+
+#footer{
+clear:both;
+margin-top:50px;
+clear: both;
+text-align: right;
+padding-right: 5%;
 }
 
