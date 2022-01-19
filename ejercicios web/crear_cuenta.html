@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel = "stylesheet" href="css/header.css"/>
     <link rel = "stylesheet" href="css/crear_cuenta.css"/>
+    <link rel = "stylesheet" href="css/hojaEstilo.css"/>
     <title>Crear cuenta</title>
     
 
@@ -13,18 +14,36 @@
 </head>
 <body>
 <body background ="/imagenes/inmobiliaria.jpg">
+  <h1 class="titulo_header"> INMOSERVI </h1>
+   
+    <nav class="menu">
+            <img id="logoInicial" src="imagenes/logo.jpg">
+            <ul>
+              <li></li>
+              <li> <a id="li_menu" href="inicio.html">inicio</a></li>
+              <li> <a id="li_menu"  href="#">perfil</a></li>
+              <li> <a id="li_menu" href="login.html">inciar sesion</a></li>
+              <li> <a id="li_menu" href="crear_cuenta.html">Crear Cuenta</a></li>
+              <li> <a id="li_menu" href="propiedades-en-alquiler.html">Propiedades</a></li>
+              <li><a id="li_menu" href="Contacto.html">Contacto</a></li>
+            </ul>
+    </nav>
       <div class="contenedor">
         
         <div class="titulo" >
-        <p>BIENVENIDO</p>
-        <P>DEBE CREAR CUENTA PARA EMPEZAR</P>
+          <p>BIENVENIDO</p>
+          <P>DEBE CREAR CUENTA PARA EMPEZAR</P>
         </div>
-        |  <div class="subtitulo">
-        <p>Nombres: <input type="nombre" class="input" id="name" size="40" placeholder="name"/></p>
-        <p>Apellidos: <input type="apellido" class="input" id="last name" size="40" placeholder="last name"/></p>
-        <p>Correo: <input type="correo" class="input" id="mail" size="45" placeholder="mail"/></p>
-        <p>Contraseña: <input type="password" class="input" id="password" size="38" placeholder="Password"/></p>
-        <button class="submit_Cc" id="submit" >Crear Cuenta</button>
+        <div class="subtitulo">
+          <form>
+            <label>Nombres:</label>
+            <input type="nombre" class="input" id="name" size="40" placeholder="name"/>
+          </form>
+          <p> </p>
+          <p>Apellidos: <input type="apellido" class="input" id="last name" size="40" placeholder="last name"/></p>
+          <p>Correo: <input type="correo" class="input" id="mail" size="45" placeholder="mail"/></p>
+          <p>Contraseña: <input type="password" class="input" id="password" size="38" placeholder="Password"/></p>
+          <button class="submit_Cc" id="submit" >Crear Cuenta</button>
         </div>
       </div>
     

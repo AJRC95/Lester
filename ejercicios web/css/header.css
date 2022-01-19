@@ -2,3 +2,24 @@
 .titulo_header{
     text-align: center;
 }
+.menu {
+     
+    background-color: rgb(187, 240, 240);
+    font-size: 15px;
+    justify-content: space-between;
+    align-items: center;
+    height: 18px;
+    padding: 20px 0;
+    display: flex;
+}
+
+.menu ul li {
+    padding: 10px;
+    flex: 1;
+    margin-left: 20px;
+
+}
+.menu a{
+    text-align: right;
+
+}

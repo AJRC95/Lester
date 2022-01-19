@@ -29,7 +29,7 @@ padding-bottom:20px;
 }
 
 button:hover{
-    background-color: #e9642c;
+    background-color: #ec652b;
 }
 
 #li_menu:hover{
@@ -43,7 +43,7 @@ button:hover{
 }
 
 .pater:hover{
-    background-color: #e9642c;
+    background-color: #e9652c69;
 }
 
 #ImagenBien{
@@ -101,6 +101,7 @@ padding-right: 5%;
 .row{
     margin-left: 15px;
     margin-right: 15px;
+    padding-top: 15px;
 }
  
     
