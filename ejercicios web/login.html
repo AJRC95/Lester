@@ -7,6 +7,11 @@
     <title>Login</title>
     <link rel = "stylesheet" href="css/hojaEstilo.css"/>
     <link rel = "stylesheet" href="css/header.css"/>
+    <script type="text/javascript">
+        document.getElementById("myButton").onclick = function () {
+            location.href = "www.yoursite.com";
+        };
+    </script>
 </head>
 <body style="background: rgb(237, 243, 243);">
     
@@ -31,7 +36,7 @@
     <img style="width: 150px; padding-left: 45%;" id="logoInicial" src="imagenes/logo.jpg"-->
     <div style="padding-left: 35%;">
         <br>
-        <form style="margin: 10%;">
+        <form onload="cargar();" style="margin: 10%;">
             <div>
                 <label>Usuario:</label>
                 <input id="email" type="email" name="email" required="required" autofocus="autofocus">
@@ -47,7 +52,19 @@
                 <span class="ml-2 text-sm text-gray-600">Remember me</span>
             </label>
             <br><br>
-            <button>Iniciar Sesion</button>
+            <div id="botones">
+                <input type="button" onclick="javascript:cambia_de_pagina();" value="Iniciar Sesion"/>
+            </div>
+            
+            
+
+            <script>
+                function cambia_de_pagina(){
+                  alert("Gracias por visitar nuestra pagina, al perfil")
+                  location.href="ejercicicio.html"
+                }
+              </script>
+               
         </form>
     </div>
 </body>
