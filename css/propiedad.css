@@ -21,7 +21,6 @@
 .formulario {
     width: 100%;
     text-align: center;
-    play: inline-block;
     grid-template-columns: 1fr;
     gap: 20px;
     padding: 1%;   

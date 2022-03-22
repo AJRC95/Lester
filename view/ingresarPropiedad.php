@@ -94,7 +94,7 @@
             <br>
             <h3 align="center">INGRESA PRODUCTO</h3>
             <br>
-            <form class="formulario" id="formulario">
+            <form class="formulario" id="formulario" action="../model/ingresPropiedad.php" method="POST">
                 <div class="contFormulario">
                     <div id="grupo__nombre">
                         <label for="nombre" class="formulario__label">Nombres Propiedad:</label>
@@ -103,8 +103,13 @@
                     </div>
                     <div id="grupo__tipoP">
                         <label for="tipoP" class="formulario__label">Tipo de Propiedad:</label>
-                        <input class="formulario__input" name="tipoP" id="tipoP" placeholder="TIPO DE PROPIEDAD"
-                            type="text" required /><br />
+                        <select class="block mt-0 w-full border-gray-300 rounded-md" name="tipoP" id="tipoP"
+                            type="form-select" required>
+                            <option>Seleccione Forma de Pago</option>
+                            <option value="1">Terreno</option>
+                            <option value="2">Departamento</option>
+                            <option value="3">Casa</option>
+                        </select><br />
                     </div>
                     <div id="grupo__descripcion">
                         <label for="descripcion" class="formulario__label">Descripcion de Propiedad:</label>
@@ -132,7 +137,7 @@
                         <!--p class="formulario__mensaje-exito" id="formulario__mensaje-exito"> El formulario se ha enviado con exito</p-->
                     </div>
 
-                    <script src="javascript/validaAplica.js"></script>
+                    <script src="controller/validaIngresa.js"></script>
                 </div>
 
 
