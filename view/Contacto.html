@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <link rel = "stylesheet" href="../css/hojaEstilo.css"/>
+    <script SRC="function ../controller/validarFormulario_contacto().js"></script>
+    <style>
+        .contenedor{
+        font-size:40px;
+        text-align: center;
+        
+        }
+        .submit_Co{
+            font-size: 70%;
+        }
+        
+    </style>
+</head>
+<body style="background: rgb(184, 251, 251);">
+    <nav class="menu">
+        <img id="logoInicial" src="../imagenes/2logo.png">
+        <ul>
+            <li></li>
+          <li> <a id="li_menu" href="inicio.html">inicio</a></li>
+           <li> <a id="li_menu"  href="ejercicicio.html">perfil</a></li>
+           <li> <a id="li_menu"  href="agentes.html">Agentes</a></li>
+            <li> <a id="li_menu" href="login.html">inciar sesion</a></li>
+             <li> <a id="li_menu" href="crear_cuenta.html">Crear Cuenta</a></li>
+             <li> <a id="li_menu" href="propiedades-en-alquiler.html">Propiedades</a></li>
+             <li><a id="li_menu" href="Contacto.html">Contacto</a></li>
+        </ul>
+       </nav>
+    <div class="contenedor">
+        <form action="Guardado_contacto.html" method="get">
+        <img style="width: 259px; padding-left: 0%;" id="logoInicial" src="../imagenes/2logo.png">
+
+        <p>Nombres: <input type"text" id="nombre" size="60"> </p>
+        
+        <p>Movil: <input type"text" id="Movil" size="68"> </p>
+        
+        <p>Email: <input type"text" id="Email" size="68"> </p>
+        
+        <p>Observacion:</p>
+        <textarea  id="Observacion" rows="10" cols="80" ></textarea>
+        
+        <br>
+        <input type="checkbox" id="Terminos"> Aceptar Terminos y Condiciones</input>
+        <br>
+        <input type="checkbox" id="Informacion">Deseo recibir informacion relacionada a los servicios solicitados y ofertas</input>
+        <br><br>
+       
+        <input type="submit" onclick="return validarFormulario_contacto()">
+        <input type="reset">
+    </form>
+
+    </div>
+
+    
+</body>
+</html>

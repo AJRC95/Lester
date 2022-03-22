@@ -1,0 +1,262 @@
+/* CSS Document */
+
+#cabezeraweb{background-color:#3366ff00;
+}
+#cuerpo{background-color:#99ccff00;
+
+}
+
+#logoInicial{
+    width: 10%;
+    border-radius: 10%;
+}
+
+h2{
+    text-align: center;
+}
+
+.headline-box{
+    margin-left: 40%;
+    margin-right: 40%;
+  background-color: #ffffff;
+  text-align: center;
+}
+
+li{
+display:inline;
+margin-left:100px;
+padding-bottom:20px;
+}
+
+button:hover{
+    background-color: #c2c2c2;
+}
+
+#li_menu:hover{
+    background-color: rgb(154, 218, 255);
+    color: #000;
+
+}
+
+#RefenciaProp:hover{
+    background-color: rgb(183, 183, 228);
+}
+
+.pater:hover{
+    background-color: #acbbff;
+}
+
+#ImagenBien{
+    width: 100%;
+}
+
+#ImagenCentral{
+    margin: 10px auto; 
+    display: block;
+    padding-top: 5%;
+}
+
+#imagenlocal{
+display:inline;
+
+}
+#comentarios{
+margin-left:220px;
+padding-left: 20px;
+
+
+}
+
+#bienvenidox{
+float:left;
+display:block;
+}
+#bienvenido{
+    text-align: center;
+}
+
+#footer{
+clear:both;
+margin-top:50px;
+clear: both;
+text-align: right;
+padding-right: 5%;
+}
+
+.pater{
+    padding-top: 30px;
+}
+.pater > div {
+    display: inline-block;
+    width: 49%;
+    margin: 0;
+}
+
+#tituloStaff{
+    color: blue;
+    font-family: "Open Sans", sans-serif
+}
+
+ 
+/*crear cuenta*/
+
+.titulo{
+    font-size: 800%;
+    text-align: center;
+ }
+ .subtitulo{
+     font-size: 180%;
+     text-align: center;
+ }
+ .submit_Cc{
+     font-size: 80%;
+ }
+
+ .menu {
+     
+     background-color: rgb(248, 246, 124);
+     font-size: 15px;
+     justify-content: space-between;
+     align-items: center;
+     height: 10px;
+     padding: 20px 0;
+     display: flex;
+ }
+ 
+ .menu ul li {
+     padding: 10px;
+     flex: 1;
+     margin-left: 20px;
+
+ }
+ .menu a{
+     text-align: right;
+ 
+ }
+
+
+ .menu_Agentes {
+     
+    background-color: rgb(248, 246, 124);
+    font-size: 15px;
+    justify-content: space-between;
+    align-items: center;
+    height: 10px;
+    padding: 20px 0;
+    display: flex;
+ }
+
+ .menu_Agentes ul li {
+    padding: 10px;
+    flex: 1;
+    margin-left: 20px;
+
+}
+.menu_Agentes a{
+    text-align: right;
+
+}
+.agente{
+    text-align:left;
+    display: flex;
+}
+
+
+.agente{
+    margin-bottom: 30px;
+}
+
+#agente1{
+    margin-left: 20px;
+    margin-top: 20px;
+    padding: 30px;
+    margin: 15px;
+    border-style:groove;
+    border-color: #000;
+    
+}
+
+.contenedor_a_1{
+    display: inline-block;
+}
+#agente2{
+
+    margin-left: 20px;
+    margin-top: 20px;
+    padding: 30px;
+    margin: 15px;
+    border-style:groove;
+    border-color: #000;
+    
+
+}
+#agente3{
+    margin-left: 20px;
+    margin-top: 20px;
+    padding: 30px;
+    margin: 15px;
+    border-style:groove;
+    border-color: #000;
+
+}
+#agente4{
+    margin-left: 20px;
+    margin-top: 20px;
+    padding: 30px;
+    margin: 15px;
+    border-style:groove;
+    border-color: #000;
+
+}
+#agente5{
+    margin-left: 20px;
+    margin-top: 20px;
+    padding: 30px;
+    margin: 15px;
+    border-style:groove;
+    border-color: #000;
+
+}
+#agente6{
+    margin-left: 20px;
+    margin-top: 20px;
+    padding: 30px;
+    margin: 15px;
+    border-style:groove;
+    border-color: #000;
+
+}
+
+.subtitulo form{
+    background-color: #ffffff;
+    width: 410px;
+    display: inline-block;
+    
+}
+
+.Mision{
+    color: blue;
+    font-family: "Open Sans", sans-serif;
+  
+}
+
+.vision{
+    color: blue;
+    font-family: "Open Sans", sans-serif;
+}
+
+.politica{
+    color: blue;
+    font-family: "Open Sans", sans-serif;
+}
+ 
+.articulo{
+    padding: 10px;
+    text-align:left;
+    text-transform:none;
+  
+    
+} 
+    
+
+ 

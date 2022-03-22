@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel = "stylesheet" href="../css/hojaEstilo.css"/>
+</head>
+<body style="background: rgb(184, 251, 251);">
+    
+	<?php include "php/navbar.php"; ?>
+    <nav class="menu">
+        <img id="logoInicial" src="../imagenes/2logo.png">
+        <ul>
+          <li> <a id="li_menu" href="inicio.html">inicio</a></li>
+          <li> <a id="li_menu"  href="ejercicicio.html">perfil</a></li>
+          <li> <a id="li_menu"  href="agentes.html">Agentes</a></li>
+          <li> <a id="li_menu" href="login.html">inciar sesion</a></li>
+          <li> <a id="li_menu" href="crear_cuenta.html">Crear Cuenta</a></li>
+           <li> <a id="li_menu" href="propiedades-en-alquiler.html">Propiedades</a></li>
+           <li><a id="li_menu" href="Contacto.html">Contacto</a></li>
+        </ul>
+       </nav>
+
+
+    <h3 style="padding-top: 30px; text-align: center;">INMOSERVI</h3>
+    <img style="width: 150px; padding-left: 45%;" id="logoInicial" src="../imagenes/2logo.png">
+    <div style="padding-left: 35%;">
+        <br>
+        <form style="margin: 10%;">
+            <div>
+                <label>Usuario:</label>
+                <input id="email" type="email" name="email" required="required" autofocus="autofocus">
+            </div>
+            <br>
+            <div>
+                <label>Contraseña:</label>
+                <input id="password" type="password" name="password" required="required" autofocus="autofocus">
+            </div>
+            <br>
+            <label style="text-align: center;">
+                <input type="checkbox" id="remember_me" name="remember">
+                <span class="ml-2 text-sm text-gray-600">Remember me</span>
+            </label>
+            <br><br>
+            <button>Iniciar Sesion</button>
+        </form>
+    </div>
+</body>
+<footer id="footer">     
+    <br>
+    <hr>
+  <p>Derechos Reservados</p>
+</footer>
+</html>
