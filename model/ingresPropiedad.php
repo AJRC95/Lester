@@ -21,8 +21,8 @@ const imagen = document.getElementById('imagen');
 
         $database_username = 'root';
         $database_password = '1234';
-        $dbname="proyecto";
-        $dsn = 'mysql:host=localhost:3306;dbname=' . $dbname;
+        $dbname="proyecto_dw";
+        $dsn = 'mysql:host=localhost:3307;dbname=' . $dbname;
         try 
         {
             $pdo_conn = new PDO($dsn, $database_username, $database_password ); 
@@ -33,12 +33,13 @@ const imagen = document.getElementById('imagen');
             $direccion = $_POST['direccion'];
             $ciudad = $_POST['ciudad'];
 
-            $inserta = "INSERT INTO propiedades(nombre, descripcion, imagen, direccion, ciudad) 
-                        VALUES ('$nombre','$descripcion', '$imagen', '$direccion', '$ciudad');
+            $inserta = "INSERT INTO propiedades(nombre, descripcion, imagen, direccion, ciudad) VALUES ('$nombre','$descripcion', '$imagen', '$direccion', 1);
                 commit;";
 
+echo "".$inserta;
+
             $resultado = mysqli_query($pdo_conn, $inserta)
-                or die("Error al consultar registro");
+                or die("Error al insertar registro");
 
             mysqli_close($pdo_conn);
             echo "Ingreso Exitoso!";

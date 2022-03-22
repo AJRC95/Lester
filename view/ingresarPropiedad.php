@@ -103,9 +103,9 @@
                     </div>
                     <div id="grupo__tipoP">
                         <label for="tipoP" class="formulario__label">Tipo de Propiedad:</label>
-                        <select class="block mt-0 w-full border-gray-300 rounded-md" name="tipoP" id="tipoP"
+                        <select class="formulario__input" name="tipoP" id="tipoP"
                             type="form-select" required>
-                            <option>Seleccione Forma de Pago</option>
+                            <option>Seleccione Tipo de Propiedad</option>
                             <option value="1">Terreno</option>
                             <option value="2">Departamento</option>
                             <option value="3">Casa</option>
@@ -137,7 +137,7 @@
                         <!--p class="formulario__mensaje-exito" id="formulario__mensaje-exito"> El formulario se ha enviado con exito</p-->
                     </div>
 
-                    <script src="controller/validaIngresa.js"></script>
+                    <script src="../controller/validaIngresa.js"></script>
                 </div>
 
 
